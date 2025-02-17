@@ -695,10 +695,8 @@ async function getIosFormats(videoId: string, cookieJar: { [key: string]: string
         body: JSON.stringify({
             context: {
                 client: {
-                    clientName: 'IOS',
-                    clientVersion: '19.09.3',
-                    deviceModel: 'iPhone16,1',
-                    userAgent: 'com.google.ios.youtube/19.09.3 (iPhone; CPU iPhone OS 17_5 like Mac OS X)',
+                    clientName: "WEB_EMBEDDED_PLAYER",
+                    clientVersion: "1.20240723.01.00",
                     hl: 'en',
                     timeZone: 'UTC',
                     utcOffsetMinutes: 0
